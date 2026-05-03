@@ -1,0 +1,5 @@
+[versions]
+drain = "2.1.1"
+
+[libraries]
+drain = { module = "io.ktor:ktor-client-core", version.ref = "drain" }
